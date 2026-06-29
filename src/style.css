@@ -1,0 +1,83 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  width: 100vw; 
+}
+  
+
+#canvas-container {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100vw; 
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.scroll-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+  color: #2a2a28;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.scroll-toggle:hover {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.scroll-toggle.active {
+  background: #2a2a28;
+  color: #f0ede8;
+  border-color: #2a2a28;
+}
+
+.btns-container{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(6px);
+  border-radius: 6px;
+
+  bottom: 1.5rem;
+  left: 1.5rem;
+  gap: 8px;
+  z-index: 1;
+}
+
+
+.path-btn {
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #4f4f4f;
+  font-weight: 200;
+  background: none;
+  border: none;
+}
+
+
+.path-btn.active {
+  color: #000000;
+  font-weight: 400;
+}
