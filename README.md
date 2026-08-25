@@ -21,10 +21,6 @@ Inspiration : https://www.cosmos.so/e/780940495
 
 ## Misc
 
-Follow Gaspard: [X](https://x.com/gasphedde), [LinkedIn](https://www.linkedin.com/in/gaspardhedde/), [GitHub]()
+Follow Gaspard: [X](https://x.com/gasphedde), [LinkedIn](https://www.linkedin.com/in/gaspardhedde/), [GitHub](https://github.com/gaspoorf/)
 
 Follow Codrops: [X](http://www.x.com/codrops), [LinkedIn](https://www.linkedin.com/company/codrops/), [Instagram](https://www.instagram.com/codropsss/), [Facebook](https://www.facebook.com/codrops), [GitHub](https://github.com/codrops)
-
-## License
-
-[MIT](LICENSE)
